@@ -1,0 +1,18 @@
+# Search
+--type-add=js=.jst
+--type-add=js=.coffee
+--type-set=coffee=.coffee
+
+--type-set=cucumber=.feature
+
+--type-add=html=.haml
+--type-set=haml=.haml
+
+--type-set=less=.less
+--type-set=sass=.sass,.scss
+--type-add=css=.sass,.scss,.less
+
+# Don't Search
+--ignore-dir=log
+--ignore-dir=tags
+--ignore-dir=tmp

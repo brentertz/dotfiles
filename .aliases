@@ -1,0 +1,36 @@
+# Mac
+alias finder='cd "$(osascript -e "tell application \"Finder\" to if window 1 exists then if target of window 1 as string is not \":\" then get POSIX path of (target of window 1 as alias)")"'
+# ql: show a "Quick Look" view of files
+ql () { /usr/bin/qlmanage -p "$@" >& /dev/null & }
+
+# Unix
+alias oo='open .'
+alias ll='ls -alh'
+# Search google for the given keywords.
+function google; {
+  open "http://www.google.com/search?q=`urlencode "${(j: :)@}"`"
+}
+
+
+# RVM
+# https://github.com/carlhuda/janus/wiki/Rvm
+alias mvim='rvm system do /usr/local/bin/mvim $@' 
+
+# Git
+alias g="git"
+alias gp="git pull"
+alias gpr="git pull --rebase"
+alias gs="git status"
+alias gl="git log"
+alias gco="git checkout"
+
+# Bundler
+alias be='bundle exec'
+
+# Heroku DB
+alias heroku-db-backup-production='heroku pgbackups:capture --expire --remote production'
+alias heroku-db-copy-production-to-staging='heroku pgbackups:restore DATABASE `heroku pgbackups:url --remote production` --remote staging --confirm `basename $PWD`-staging'
+alias heroku-db-copy-production-to-daily='heroku pgbackups:restore DATABASE `heroku pgbackups:url --remote production` --remote daily --confirm `basename $PWD`-daily'
+
+# Directory aliases
+alias qlr='cd /Users/brent/Development/work/quickleft.com-rails'

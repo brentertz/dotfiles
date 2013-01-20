@@ -1,0 +1,8 @@
+" Um, set transparency
+set transparency=5
+
+" Hide toolbar and scrollbars
+set guioptions=aAce
+
+" No audible bell
+set vb

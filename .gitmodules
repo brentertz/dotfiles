@@ -1,0 +1,9 @@
+[submodule ".janus/vim-bundler"]
+	path = .janus/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule ".janus/vim-rails"]
+	path = .janus/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule ".janus/vim-rvm"]
+	path = .janus/vim-rvm
+	url = git@github.com:tpope/vim-rvm.git

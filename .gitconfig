@@ -1,0 +1,5 @@
+[user]
+	name = Brent Ertz
+	email = brent.ertz@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global

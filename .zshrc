@@ -37,6 +37,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 PATH=$PATH:/usr/local/heroku/bin # Heroku Toolbelt
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM
+source ~/.nvm/nvm.sh # Activate NVM
 
 # Aliases
 if [ -e "$HOME/.aliases" ]; then

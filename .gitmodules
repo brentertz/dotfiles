@@ -7,3 +7,6 @@
 [submodule ".janus/vim-rvm"]
 	path = .janus/vim-rvm
 	url = git@github.com:tpope/vim-rvm.git
+[submodule ".nvm"]
+	path = .nvm
+	url = git@github.com:creationix/nvm.git

@@ -4,5 +4,8 @@ set transparency=5
 " Hide toolbar and scrollbars
 set guioptions=aAce
 
+" Set font preference
+set guifont=Source\ Code\ Pro\ for\ Powerline
+
 " No audible bell
 set vb

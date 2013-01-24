@@ -4,3 +4,6 @@ set showcmd
 "Line length column indicators
 let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=0 guibg=gray20
+
+" Powerline
+let g:Powerline_symbols = 'fancy'

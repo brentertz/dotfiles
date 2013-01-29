@@ -35,3 +35,6 @@ alias heroku-db-copy-production-to-daily='heroku pgbackups:restore DATABASE `her
 # Directory aliases
 alias h='cd ~'
 alias w='cd ~/Development/work/'
+
+# Override autocorrect
+alias grunt='nocorrect grunt'

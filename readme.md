@@ -13,6 +13,7 @@ this repo, and replace my dotfiles with your own.
 ```sh
 git clone https://github.com/brentertz/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
+git submodule init && git submodule update
 ./bootstrap
 ```
 

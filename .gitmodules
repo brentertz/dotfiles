@@ -16,3 +16,9 @@
 [submodule ".janus/vim-powerline"]
 	path = .janus/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule ".janus/vim-jst"]
+	path = .janus/vim-jst
+	url = git@github.com:briancollins/vim-jst.git
+[submodule ".janus/vim-javascript"]
+	path = .janus/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git

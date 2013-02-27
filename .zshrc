@@ -45,3 +45,9 @@ if [ -e "$HOME/.aliases" ]; then
 fi
 
 export DEFAULT_USER='brent'
+export EDITOR='mvim -f'
+
+# Auto load directory specific environment files
+chpwd() {
+  if [ -f ".env" ]; then source .env; fi
+}

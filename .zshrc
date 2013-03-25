@@ -47,6 +47,12 @@ fi
 export DEFAULT_USER='brent'
 export EDITOR='mvim -f'
 
+# defunkt/hub integration
+eval "$(hub alias -s)"
+if [ -e "$HOME/.hub.zsh_completion" ]; then
+  source "$HOME/.hub.zsh_completion"
+fi
+
 # Auto load directory specific environment files
 chpwd() {
   if [ -f ".env" ]; then source .env; fi

@@ -36,8 +36,13 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 PATH=$PATH:/usr/local/heroku/bin # Heroku Toolbelt
+export ANDROID_HOME=/usr/local/opt/android-sdk # Android SDK
+PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM
 source ~/.nvm/nvm.sh # Activate NVM
+
+# brew install curl-ca-bundle
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 
 # Aliases
 if [ -e "$HOME/.aliases" ]; then

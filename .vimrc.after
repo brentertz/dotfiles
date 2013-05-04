@@ -9,6 +9,7 @@ highlight ColorColumn ctermbg=0 guibg=gray20
 let g:Powerline_symbols = 'fancy'
 
 " Persist undo history across sessions
+silent !mkdir ~/.vim/undo > /dev/null 2>&1
 set undofile
-set undodir=~/.vim/undo " Create directory manually
+set undodir=~/.vim/undo
 

@@ -38,3 +38,4 @@ alias w='cd ~/Development/work/'
 
 # Override autocorrect
 alias grunt='nocorrect grunt'
+alias cordova='nocorrect cordova'

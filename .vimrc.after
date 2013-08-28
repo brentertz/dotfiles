@@ -13,3 +13,5 @@ silent !mkdir ~/.vim/undo > /dev/null 2>&1
 set undofile
 set undodir=~/.vim/undo
 
+" Use modern ruby syntax
+let g:syntastic_ruby_exec = 'ruby19'

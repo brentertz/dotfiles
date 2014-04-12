@@ -1,4 +1,5 @@
-let mapleader=","
+" Remap leader
+let mapleader=','
 
 " Turn off paren matching
 let loaded_matchparen = 1

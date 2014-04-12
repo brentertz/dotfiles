@@ -31,6 +31,11 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git nyan vi-mode sublime urltools)
 
+# Use vi mode in terminal
+#bindkey -v # currently using vi-mode plugin
+# Remap escape in terminal vi mode
+bindkey -M viins 'jj' vi-cmd-mode
+
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...

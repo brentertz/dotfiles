@@ -15,3 +15,6 @@ set undodir=~/.vim/undo
 
 " Use modern ruby syntax
 let g:syntastic_ruby_exec = 'ruby19'
+
+" Remap escape
+:inoremap jj <Esc>

@@ -49,6 +49,12 @@ PATH=$PATH:/usr/local/share/npm/bin # Add npm bin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+# Python VirtualEnv
+export WORKON_HOME=$HOME/.virtualenvs
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export PIP_RESPECT_VIRTUALENV=true
+source /usr/local/bin/virtualenvwrapper.sh
+
 # brew install curl-ca-bundle
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 

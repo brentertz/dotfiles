@@ -21,3 +21,7 @@ let g:syntastic_ruby_exec = 'ruby19'
 
 " Do not wrap lines
 set nowrap
+
+" More Syntastic
+let g:syntastic_auto_loc_list=1
+let g:syntastic_loc_list_height=5

@@ -18,3 +18,6 @@ let g:syntastic_ruby_exec = 'ruby19'
 
 " Remap escape
 :inoremap jj <Esc>
+
+" Do not wrap lines
+set nowrap

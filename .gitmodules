@@ -31,3 +31,6 @@
 [submodule ".janus/vim-stylus"]
 	path = .janus/vim-stylus
 	url = git@github.com:wavded/vim-stylus.git
+[submodule ".janus/vim-jsx"]
+	path = .janus/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git

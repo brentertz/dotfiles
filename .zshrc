@@ -46,7 +46,6 @@ export ANDROID_HOME=/usr/local/opt/android-sdk # Android SDK
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 source ~/.nvm/nvm.sh # Activate NVM
 PATH=$PATH:/usr/local/share/npm/bin # Add npm bin
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Python VirtualEnv
@@ -77,3 +76,4 @@ chpwd() {
   if [ -f ".env" ]; then source .env; fi
 }
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM

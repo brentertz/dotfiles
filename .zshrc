@@ -65,15 +65,12 @@ fi
 export DEFAULT_USER='brent'
 export EDITOR='mvim -f'
 
-# defunkt/hub integration
+# github/hub integration
 eval "$(hub alias -s)"
-if [ -e "$HOME/.hub.zsh_completion" ]; then
-  source "$HOME/.hub.zsh_completion"
-fi
+zstyle ':completion:*:*:git:*' script /usr/local/etc/bash_completion.d/git-completion.bash
+fpath=(/usr/local/share/zsh/site-functions $fpath)
 
 # Auto load directory specific environment files
 chpwd() {
   if [ -f ".env" ]; then source .env; fi
 }
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Activate RVM
